@@ -1,0 +1,20 @@
+.boo-proj-login {
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boo-proj-login > span {
+    width: 80%;
+    max-width: 500px;
+}
+
+.boo-proj-login h1 {
+    margin-bottom: 0px;
+}
+

@@ -1,0 +1,50 @@
+.dashboard-modules {
+    display: inline-grid;
+    grid-template-areas:
+        "a b"
+        "a b"
+        "a b"
+        "c b"
+        "c d"
+        "c d"
+        "c d";
+    height: 100%;
+    flex: 1;
+    background: white;
+    gap: 15px
+}
+
+.back-module {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.back-module > button {
+    display: flex;
+    background: white;
+    border: 1px solid lightgray;
+    align-items: center;
+    max-width: 100px;
+    justify-self: center;
+    transition: background 300ms;
+}
+
+.back-module > p {
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    margin: 0;
+    font-size: 1.2rem;
+    border-radius: 100px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.back-module > button > i {
+    transform: translate(-8px)
+}
+
+.back-module > button:active {
+    background: lightgray;
+}

@@ -1,0 +1,33 @@
+.card {
+    height: 100%;
+    width: 100%;
+    background: var(--bright-red);
+    display: flex;
+    justify-content: space-around;
+}
+
+#paper {
+    height: 90%;
+    width: 90%;
+    background: white;
+    align-self: center;
+    background-image: url('../../../assets/paper.jpeg');
+    box-shadow: 0 2px 8px 5px rgb(0,0,0,0.2);
+    border-radius: 2px;
+}
+
+#paper p {
+    padding: 0px 20px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.1rem;
+}
+
+#paper > button {
+    transition: background 300ms;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 3px rgb(0,0,0,0.1)
+}
+
+#paper > button:active {
+    background: gray;
+}

@@ -1,0 +1,71 @@
+.card-open {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.card-open img {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card-open button {
+    margin: 0 auto;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#card-open-button {
+    position: absolute;
+    align-self: center;
+    display: block;
+    width: 100%;
+    transition: opacity 500ms;
+}
+
+#card-slice {
+    background: var(--dark-red);
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: width 1000ms;
+    overflow: hidden;
+}
+
+#card-slice {
+    background: var(--dark-red);
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+#s1{
+    position: absolute;
+    background-size: cover;
+    background-image: url('../../../assets/heart.png');
+    height: 340px;
+    width: 170px;
+    background-position: -100%;
+    right: 0;
+    transform: scaleX(-1)
+}
+
+#s2 {
+    position: absolute;
+    background-size: cover;
+    background-image: url('../../../assets/heart.png');
+    height: 340px;
+    width: 170px;
+    background-position: -100%;
+    left: 0;
+}

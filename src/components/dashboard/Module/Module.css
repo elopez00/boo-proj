@@ -1,0 +1,33 @@
+.dashboard-module {
+    background: #e6e6e6;
+    height: 90%;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    transition: opacity 1000ms;
+}
+
+.dashboard-module > h1 {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+}
+
+.dashboard-module > i {
+    color: rgb(255, 255, 255);
+    max-width: 120px;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.dashboard-module > p {
+    color: rgb(255, 255, 255);
+    max-width: 120px;
+    margin: 0 auto;
+    align-self: center;
+}

@@ -1,0 +1,28 @@
+.boo-proj-button {
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-family: var(--font-family);
+    border-radius: 100px;
+    padding: 5px 15px;
+}
+
+#red {
+    background: var(--dark-red);
+    color: white;
+    transition: background 300ms;
+}
+
+#red:active {
+    background: var(--dark-red-transition)
+}
+
+#bright {
+    background: var(--bright-red);
+    color: white;
+    transition: background 300ms;
+}
+
+#bright:active {
+    background: var(--red-transition)
+}
