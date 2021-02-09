@@ -1,0 +1,50 @@
+.module {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: white;
+    flex-direction: column;
+}
+
+#l-desc {
+    background: rgb(233, 233, 233);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+
+#l-icon-modules {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(27vw, 1fr));
+    grid-template-rows: 30vw 30vw 30vw;
+    margin: 0 15px;
+}
+
+#l-icon {
+    align-self: center;
+    justify-self: center;
+    width: 80%;
+    height: 80%;
+    background-image: linear-gradient(red,#ff3c3c);
+    border-radius: 100%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+#l-song {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+    font-size: 1.15rem;
+    color: #ff3c3c;
+    font-weight: bold;
+    
+}
+
+#l-modal {
+    width: 85%;
+}
