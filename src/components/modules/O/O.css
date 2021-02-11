@@ -1,0 +1,54 @@
+#o-modules {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    flex: 1;
+    height: 81vw;
+    margin: 0 20px;
+}
+
+#o-modules > div {
+    background-image: linear-gradient(to right,#5145a1,#7f6bff);
+    width: 100%;
+    height: 90%;
+    align-self: center;
+    justify-self: center;
+    border-radius: 15px;
+    transition: opacity 1000ms;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    color: white;
+    position: relative;
+}
+
+#o-modules > div > p {
+    align-self: center;
+    font-size: 1.1rem;
+}
+
+#o-icon {
+    height: 35px;
+    align-self: center;
+    justify-self: center;
+    filter: brightness(0) invert(1);
+}
+
+#o-song {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+    font-size: 1.15rem;
+    color: #7f6bff;
+    font-weight: bold;
+}
+
+#o-icon-bubble {
+    border-radius: 100%;
+    background-image: linear-gradient(to right,#5145a1,#7f6bff);
+    display: flex;
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    justify-content: space-around;
+}

@@ -6,11 +6,12 @@ import Card from '../card/Card'
 import Dashboard from '../dashboard/Dashboard'
 
 import L from '../modules/L'
+import O from '../modules/O'
 
 class App extends Component {
   state = {
     authenticated: true,
-    page: "l"
+    page: "o"
   }
   
   /**
@@ -33,7 +34,8 @@ class App extends Component {
     switch (page) {
       case ('card') : return <Card changePage={this.changePage} />;
       case ('dashboard') : return <Dashboard changePage={this.changePage} />;
-      case ('l') : return <L changePage={this.changePage} />
+      case ('l') : return <L changePage={this.changePage} />;
+      case ('o') : return <O changePage={this.changePage} />;
     }
   }
 

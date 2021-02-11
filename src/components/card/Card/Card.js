@@ -10,9 +10,8 @@ export default function Card(props) {
             <CardOpen />
             <div id="paper">
                 <p>Dear Stephi,</p>
-                <p> This is just the introduction to the gift, I just wanted to 
-                    give you a cool little opening sequence so that it could be 
-                    more memorable.
+                <p> This is just an introduction to the present. Just wanted you to
+                    have the full experience by opening your card through here.
                 </p>
                 <p> I wanted this present to be unlike anything I've ever given while
                     still being 100% me... so I coded it. Everything you see in this gift

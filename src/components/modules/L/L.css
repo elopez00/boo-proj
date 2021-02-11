@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-#l-desc {
+#desc {
     background: rgb(233, 233, 233);
     border-radius: 20px;
     margin: 20px;
@@ -31,6 +31,7 @@
     align-items: center;
     justify-content: space-around;
     display: flex;
+    transition: opacity 1000ms;
 }
 
 #l-song {
@@ -42,7 +43,6 @@
     font-size: 1.15rem;
     color: #ff3c3c;
     font-weight: bold;
-    
 }
 
 #l-modal {

@@ -9,7 +9,7 @@ export default function Module(props) {
             alignSelf: props.align,
             justifySelf: props.justify,
             opacity: props.opacity ? 1 : 0
-         }} className="dashboard-module">
+         }} className="dashboard-module" onClick={props.onClick}>
             <h1>{props.title}</h1>
             <i>{props.children}</i>
             <p>{props.desc}</p>

@@ -16,10 +16,10 @@ class Dashboard extends Component {
      * Times transitions on component mount
      */
     componentDidMount() {
-        setTimeout(() => this.setState({module1: true}), 500);
-        setTimeout(() => this.setState({module2: true}), 900);
-        setTimeout(() => this.setState({module3: true}), 1400);
-        setTimeout(() => this.setState({module4: true}), 1900);
+        setTimeout(() => this.setState({module1: true}), 300);
+        setTimeout(() => this.setState({module2: true}), 700);
+        setTimeout(() => this.setState({module3: true}), 500);
+        setTimeout(() => this.setState({module4: true}), 900);
     }
 
     render() {
@@ -37,11 +37,11 @@ class Dashboard extends Component {
                 </div>
                 <div className="dashboard-modules">
                     <Module id="a" color="linear-gradient(red,#ff5858)" align="end" justify="end" title="L"
-                    desc="the way you . . ." opacity={module1}>
+                    desc="the way you . . ." opacity={module1} onClick={() => changePage("l")}>
                         is for the way you look at me
                     </Module>
                     <Module id="b" color="linear-gradient(#5145a1,#7f6bff)" align="end" justify="start" title="O"
-                    desc="and no other" opacity={module2}>
+                    desc="and no other" opacity={module2} onClick={() => changePage('o')}>
                         is for the only one I see
                     </Module>
                     <Module id="c" color="linear-gradient(#599eff,#467bc7)" align="start" justify="end" title="V"
