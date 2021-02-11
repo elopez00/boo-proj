@@ -1,0 +1,82 @@
+#v-song {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+    font-size: 1.15rem;
+    color: #467bc7;
+    font-weight: bold;
+}
+#v-modules {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex: 1;
+    height: 81vw;
+    margin: 0 20px;
+    gap: 10px;
+}
+#v-modules > div {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+#v-modal {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 55px 40vh 1fr;
+}
+#v-modal > h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+#v-gallery {
+    display: flex;
+    overflow: auto;
+    padding: 20px 0;
+    background: linear-gradient(to right, #182b44, rgb(0, 0, 24));
+}
+
+#v-gallery > img {
+    margin: 0 0 0 15px;
+    border-radius: 20px;
+}
+
+#v-gallery::-webkit-scrollbar {
+    display: none;
+}
+
+#bot-img {
+    background-image: url('../../../assets/photo-albums/botanical/cover.jpg');
+    background-position: center;
+    background-size: 250%;
+}
+#gar-img {
+    background-image: url('../../../assets/photo-albums/gardens/cover.jpg');
+    background-position: center;
+    background-size: 200%;
+}
+#bea-img {
+    background-image: url('../../../assets/photo-albums/beach/cover.jpg');
+    background-position: center;
+    background-size: 150%;
+}
+#fam-img {
+    background-image: url('../../../assets/photo-albums/dinner/cover.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#pot-img {
+    background-image: url('../../../assets/photo-albums/pottery/cover.jpg');
+    background-position: center;
+    background-size: 125%;
+}
+#sai-img {
+    background-image: url('../../../assets/photo-albums/st-augustine/cover.jpg');
+    background-position: center;
+    background-size: 150%;
+}

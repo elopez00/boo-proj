@@ -20,7 +20,7 @@ export default function L(props) {
     const [display, displayOther] = useState("eye");
     const [icon, changeIcon] = useState(
         <div style={{height: 100, width: 100}} id="l-icon">
-            <img src={eye} height="60%" style={{transform: "translateY(4px)", filter: "invert(1)"}}/>
+            <img src={eye} alt="3" height="60%" style={{transform: "translateY(4px)", filter: "invert(1)"}}/>
         </div>
     )
 
@@ -74,31 +74,31 @@ export default function L(props) {
             <div id="l-icon-container">
                 <div id="l-icon-modules">
                     <div id="l-icon" onClick={() => onClick("eye")} style={{opacity: module1 ? 1 : 0}}>
-                        <img src={eye} height="60%" style={{transform: "translateY(4px)", filter: "invert(1)"}}/>
+                        <img alt="y" src={eye} height="60%" style={{transform: "translateY(4px)", filter: "invert(1)"}}/>
                     </div>
                     <div id="l-icon" style={{opacity: module2 ? 1 : 0}} onClick={() => onClick("zzz")}>
-                        <img src={zzz} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
+                        <img alt="y" src={zzz} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
                     </div>
                     <div id="l-icon" style={{opacity: module3 ? 1 : 0}} onClick={() => onClick("comb")}>
-                        <img src={comb} height="60%" style={{filter: "brightness(0) invert(1)"}}/>
+                        <img alt="y" src={comb} height="60%" style={{filter: "brightness(0) invert(1)"}}/>
                     </div>
                     <div id="l-icon" style={{opacity: module4 ? 1 : 0}} onClick={() => onClick("spring")}>
-                        <img src={spring} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
+                        <img alt="y" src={spring} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
                     </div>
                     <div id="l-icon" style={{opacity: module5 ? 1 : 0}} onClick={() => onClick("leg")}>
-                        <img src={leg} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
+                        <img alt="y" src={leg} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
                     </div>
                     <div id="l-icon" style={{opacity: module6 ? 1 : 0}} onClick={() => onClick("mmm")}>
-                        <img src={mmm} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
+                        <img alt="y" src={mmm} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
                     </div>
                     <div id="l-icon" style={{opacity: module7 ? 1 : 0}} onClick={() => onClick("sticker")}>
-                        <img src={sticker} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
+                        <img alt="y" src={sticker} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
                     </div>
                     <div id="l-icon" style={{opacity: module8 ? 1 : 0}} onClick={() => onClick("smile")}>
-                        <img src={smile} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
+                        <img alt="y" src={smile} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
                     </div>
                     <div id="l-icon" style={{opacity: module9 ? 1 : 0}} onClick={() => onClick("wish")}>
-                        <img src={wish} height="60%" style={{filter: "brightness(0) invert(1)"}}/>
+                        <img alt="y" src={wish} height="60%" style={{filter: "brightness(0) invert(1)"}}/>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@ const mannerisms = {
         desc: "I love the way you close your eyes and smile when I kiss you on the cheek :)",
         icon: (
             <div id="l-icon" style={{width: 100, height: 100, margin: "15px auto"}}>
-                <img src={eye} height="60%" style={{transform: "translateY(4px)", filter: "invert(1)"}}/>
+                <img alt="y" src={eye} height="60%" style={{transform: "translateY(4px)", filter: "invert(1)"}}/>
             </div> 
         )
     },
@@ -129,7 +129,7 @@ const mannerisms = {
         desc: "I love the way you turn around when you are half asleep to kiss me good morning",
         icon: (
             <div id="l-icon" style={{width: 100, height: 100, margin: "15px auto"}}>
-                <img src={zzz} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
+                <img alt="y" src={zzz} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
             </div>
         )
     },
@@ -138,7 +138,7 @@ const mannerisms = {
         desc: "I love the way you play with my hair when we're cuddiling <3",
         icon: (
             <div id="l-icon" style={{width: 100, height: 100, margin: "15px auto"}}>
-                <img src={comb} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
+                <img alt="y" src={comb} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
             </div>
         )
     },
@@ -147,7 +147,7 @@ const mannerisms = {
         desc: "I love the way you jump when you are excited or happy about something",
         icon: (
             <div id="l-icon" style={{width: 100, height: 100, margin: "15px auto"}}>
-                <img src={spring} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
+                <img alt="y" src={spring} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
             </div>
         )
     },
@@ -156,7 +156,7 @@ const mannerisms = {
         desc: "I love the way you throw your leg around me when we are laying or sitting down",
         icon: (
             <div id="l-icon" style={{width: 100, height: 100, margin: "15px auto"}}>
-                <img src={leg} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
+                <img alt="y" src={leg} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
             </div>
         )
     },
@@ -165,7 +165,7 @@ const mannerisms = {
         desc: "I love the way you go 'mmm' when I am hugging, kissing, or just being romantic with you :D",
         icon: (
             <div id="l-icon" style={{width: 100, height: 100, margin: "15px auto"}}>
-                <img src={mmm} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
+                <img alt="y" src={mmm} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
             </div>
         )
     },
@@ -174,7 +174,7 @@ const mannerisms = {
         desc: "I love the way you send me stickers all the time, it always adds another layer of communication :)",
         icon: (
             <div id="l-icon" style={{width: 100, height: 100, margin: "15px auto"}}>
-                <img src={sticker} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
+                <img alt="y" src={sticker} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
             </div>
         )
     },
@@ -183,7 +183,7 @@ const mannerisms = {
         desc: "I love the way you smile, all the time, always <3",
         icon: (
             <div id="l-icon" style={{width: 100, height: 100, margin: "15px auto"}}>
-                <img src={smile} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
+                <img alt="y" src={smile} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
             </div>
         )
     },
@@ -192,7 +192,7 @@ const mannerisms = {
         desc: "I love the way you always remind me to make a wish, whether it be 11:11 or a fallen eyelash",
         icon: ( 
             <div id="l-icon" style={{width: 100, height: 100, margin: "15px auto"}}>
-                <img src={wish} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
+                <img alt="y" src={wish} height="50%" style={{filter: "brightness(0) invert(1)"}}/>
             </div>
         )
     }
