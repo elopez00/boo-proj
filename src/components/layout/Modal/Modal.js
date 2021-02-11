@@ -3,7 +3,7 @@ import './Modal.css'
 
 export default function Modal(props) {
     // state
-    const [modal, showModal] = useState(false);
+    const [modal, showModal] = useState(false); 
     const [transition, showTransition] = useState(false);
 
     const manageTransition = () => {
