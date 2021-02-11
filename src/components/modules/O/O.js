@@ -93,5 +93,42 @@ const qualities = {
             + " did, but you came along and proved me wrong. I don't take the words 'I love you'"
             + " lightly, and when I say them to you, I truly mean them. So when you say them"
             + " back, if you ever see me giddy or excited, its because it feels like you mean them too."
+    },
+    support: {
+        img: support,
+        title: "Support",
+        desc: " Something I struggled with a lot, especially before I met you is forgiving myself."
+            + " You have probably noticed it, but I tend to be really hard on myself and usually"
+            + " the support I do have is the typical 'work harder' and 'do better' cliches. Not that"
+            + " there is anything wrong with that, but when I'm struggling and I need to talk to someone,"
+            + " I typically feel like my problems are disregarded. You, literally hold my hand and find"
+            + " ways to calm me down, even without you noticing. Part of the reason I feel so at peace with"
+            + " you because you always know how to keep me calm, take deep breaths, and reassess. I can't"
+            + " tell you how much I appreciate your support, thank you for being patient and sticking with"
+            + " me when I start freaking out. I love you so much."
+    },
+    communication: {
+        img: megaphone,
+        title: "Communication",
+        desc: " Something I appreciate about you is that you tell me how it is. Sometimes you pull your punches,"
+            + " but most times you just tell me how you feel, and you have no idea how much that means to me."
+            + " I feel like most problems arise from a lack of communication, and the fact that you are so open"
+            + " and vulnerable with me allows me to have confidence that we could avoid those issues from escalating."
+            + " I don't think I say it enough, but thank you for always talking to me. When I ask you for your opinion,"
+            + " thank you for telling me your truth. When you are displeased, thank you for explaining your frustration."
+            + " When I'm being an idiot, thank you for calling me out. I love you, not only because you are pretty, smart,"
+            + " and strong, but because you can talk to me when things go south."
+    },
+    understanding: {
+        img: understand,
+        title: "Understanding",
+        desc: " Something that never fails to amaze me is how understanding you are. I am not used to people"
+            + " being so accepting and patient when I talk to them, and so when you nod your head and listen,"
+            + " it baffles me. There has been many times where I am nervous to tell you something out of fear"
+            + " that you would look at me different, or view me as less, but you always just smile and give me"
+            + " a hug after. My heart skips beats and my voice starts cracking everytime I open up to anyone,"
+            + " but with you, I have been able to calm down and talk more. I have never been this comfortable being"
+            + " vulnerable to anyone as much as you, and its all because you try to understand me rather than judge me. Thank you"
+            + " Stephi, it means the world to me."
     }
 }

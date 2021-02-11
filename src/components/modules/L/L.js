@@ -64,7 +64,7 @@ export default function L(props) {
                     <i className="material-icons">keyboard_arrow_left</i>
                     Dash
                 </Button>
-                <p style={{fontWeight: "normal"}}>I <strong>L</strong>OVE U</p>
+                <p style={{fontWeight: "normal"}}>I <strong style={{color: "#ff5858"}}>L</strong>OVE U</p>
             </div>
             <div id="desc">
                 <p>You told me to keep track of your mannerisms that I find cute, so I did.
