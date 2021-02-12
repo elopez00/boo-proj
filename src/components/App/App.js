@@ -12,7 +12,7 @@ import V from '../modules/V'
 class App extends Component {
   state = {
     authenticated: true,
-    page: "v"
+    page: "card"
   }
   
   /**
