@@ -1,0 +1,105 @@
+#e-song {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+    font-size: 1.15rem;
+    color: #e3b662;
+    font-weight: bold;
+}
+
+#e-letter {
+    height: 81vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: space-around;
+}
+
+#envelope {
+    width: 90vw;
+    background: var(--super-light-red);
+    height: 60vw;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#envelope::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 45vw solid transparent;
+    border-right: 45vw solid #c42828;
+    border-top: 30vw solid transparent;
+    border-bottom: 30vw solid #c42828;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 5;
+}
+
+#envelope:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 45vw solid var(--bright-red);
+    border-right: 45vw solid transparent;
+    border-top: 30vw solid transparent;
+    border-bottom: 30vw solid var(--bright-red);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 4;
+}
+
+#cover {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 45vw solid transparent;
+    border-right: 45vw solid transparent;
+    border-top: 30vw solid var(--super-light-red);
+    border-bottom: 30vw solid transparent;
+    z-index: 6;
+    transform-origin: top;
+    transition: transform 1000ms ease;
+    display: flex;
+    flex-direction: column;
+}
+
+#cover:after {
+    content: "E";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    align-self: center;
+    background: #ffb073;
+    transform: translateY(-30px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid #e3b662;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#card {
+    background-image: url('../../../assets/paper.jpeg');
+    width: 85%;
+    height: 85%;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 10px;
+    transition: transform 1000ms ease;
+    text-align: center;
+    font-family: 'Indie Flower', sans-serif;
+}

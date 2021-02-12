@@ -8,11 +8,12 @@ import Dashboard from '../dashboard/Dashboard'
 import L from '../modules/L'
 import O from '../modules/O'
 import V from '../modules/V'
+import E from '../modules/E'
 
 class App extends Component {
   state = {
     authenticated: true,
-    page: "card"
+    page: "e"
   }
   
   /**
@@ -38,6 +39,7 @@ class App extends Component {
       case ('l') : return <L changePage={this.changePage} />;
       case ('o') : return <O changePage={this.changePage} />;
       case ('v') : return <V changePage={this.changePage} />;
+      case ('e') : return <E changePage={this.changePage} /> 
     }
   }
 
