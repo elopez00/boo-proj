@@ -49,6 +49,21 @@ export default function V(props) {
     // state 
     const [view, setView] = useState("garden");
     const [modal, showModal] = useState(false);
+    const [pic1, showPic1] = useState(false);
+    const [pic2, showPic2] = useState(false);
+    const [pic3, showPic3] = useState(false);
+    const [pic4, showPic4] = useState(false);
+    const [pic5, showPic5] = useState(false);
+    const [pic6, showPic6] = useState(false);
+
+    useEffect(() => {
+        setTimeout(() => showPic1(true), 300)
+        setTimeout(() => showPic2(true), 500)
+        setTimeout(() => showPic3(true), 400)
+        setTimeout(() => showPic4(true), 500)
+        setTimeout(() => showPic5(true), 400)
+        setTimeout(() => showPic6(true), 300)
+    }, [])
 
     const onClick = clickedView => {
         setView(clickedView);
@@ -70,12 +85,12 @@ export default function V(props) {
                 </p>
             </div>
             <div id="v-modules">
-                <div id="gar-img" onClick={() => onClick("garden")}/>
-                <div id="bea-img" onClick={() => onClick("beach")}/>
-                <div id="fam-img" onClick={() => onClick("dinner")}/>
-                <div id="pot-img" onClick={() => onClick("pottery")}/>
-                <div id="bot-img" onClick={() => onClick("botanical")}/>
-                <div id="sai-img" onClick={() => onClick("stAug")}/>
+                <div id="gar-img" style={{opacity: pic1 ? 1 : 0}} onClick={() => onClick("garden")}/>
+                <div id="bea-img" style={{opacity: pic2 ? 1 : 0}} onClick={() => onClick("beach")}/>
+                <div id="fam-img" style={{opacity: pic3 ? 1 : 0}} onClick={() => onClick("dinner")}/>
+                <div id="pot-img" style={{opacity: pic4 ? 1 : 0}} onClick={() => onClick("pottery")}/>
+                <div id="bot-img" style={{opacity: pic5 ? 1 : 0}} onClick={() => onClick("botanical")}/>
+                <div id="sai-img" style={{opacity: pic6 ? 1 : 0}} onClick={() => onClick("stAug")}/>
             </div>
             <p id="v-song">V is for very very extraordinary</p>
             <Modal modal={modal} showModal={showModal}>

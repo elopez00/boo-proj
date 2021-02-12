@@ -22,7 +22,7 @@ export default function Modal(props) {
 
     return (
         <div className="modal" style={{opacity: transition ? 1 : 0, display: modal ? "flex" : "none"}}>
-            <div className={props.fullscreen ? 'full-screen-modal' : 'modal-popup'}>
+            <div className={props.fullscreen ? 'full-screen-modal' : props.paper ? 'paper-modal' : 'modal-popup'}>
                 <div id="back-button">
                     <i className="material-icons" onClick={() => props.showModal(false)}>close</i>
                 </div>

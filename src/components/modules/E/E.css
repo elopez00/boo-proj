@@ -27,6 +27,7 @@
     transform-style: preserve-3d;
     cursor: pointer;
     margin: 0 auto;
+    transition: opacity 1000ms;
 }
 
 #envelope::before {
@@ -68,7 +69,7 @@
     border-bottom: 30vw solid transparent;
     z-index: 6;
     transform-origin: top;
-    transition: transform 1000ms ease;
+    transition: transform 800ms ease;
     display: flex;
     flex-direction: column;
 }
@@ -99,7 +100,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 10px 10px;
-    transition: transform 1000ms ease;
+    transition: transform 500ms ease;
     text-align: center;
     font-family: 'Indie Flower', sans-serif;
 }

@@ -1,21 +1,26 @@
 import React, { useState, useEffect } from 'react'
 import './E.css'
 
-import { Button } from '../../layout'
+import { Button, Modal } from '../../layout'
 
 export default function E(props) {
     const [open, openEnvelope] = useState(false);
     const [card, showCard] = useState(false);
+    const [envelope, showEnvelope] = useState(false);
 
     const manageTransition = () => {
         if (!open) {
             openEnvelope(true);
-            setTimeout(() => showCard(true), 1000);
+            setTimeout(() => showCard(true), 800);
         } else {
             showCard(false)
-            setTimeout(() => openEnvelope(false), 800);
+            setTimeout(() => openEnvelope(false), 500);
         }
     }
+
+    useEffect(() => {
+        setTimeout(() => showEnvelope(true), 300);
+    }, [])
 
     return (
         <div className="module">
@@ -32,7 +37,7 @@ export default function E(props) {
                 </p>
             </div>
             <div id="e-letter">
-                <div id="envelope" onClick={() => {
+                <div id="envelope" style={{opacity: envelope ? 1 : 0}} onClick={() => {
                     manageTransition();
                 }}>
                     <div id="cover" style={{transform: open ? "rotateX(180deg)" : "rotateX(0deg)"}}></div>

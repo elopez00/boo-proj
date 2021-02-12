@@ -12,8 +12,8 @@ import E from '../modules/E'
 
 class App extends Component {
   state = {
-    authenticated: true,
-    page: "e"
+    authenticated: false,
+    page: "card"
   }
   
   /**

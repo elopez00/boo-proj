@@ -49,7 +49,7 @@ class Dashboard extends Component {
                         is very very... extraordinary
                     </Module>
                     <Module id="d" color="linear-gradient(#ffb073, #e3b662)" align="start" justify="start" title="E"
-                    desc="a lil more love" opacity={module4}>
+                    desc="a lil more love" opacity={module4} onClick={() => changePage('e')}>
                         is for everything that I adore
                     </Module>
                 </div>
