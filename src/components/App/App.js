@@ -13,7 +13,7 @@ import E from '../modules/E'
 class App extends Component {
   state = {
     authenticated: false,
-    page: "card"
+    page: "dashboard"
   }
   
   /**

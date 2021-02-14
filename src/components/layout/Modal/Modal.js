@@ -11,6 +11,7 @@ export default function Modal(props) {
             showModal(true);
             setTimeout(() => showTransition(true), 200);
         } else {
+            props.onClose && props.onClose();
             showTransition(false);
             setTimeout(() => showModal(false), 300);
         }

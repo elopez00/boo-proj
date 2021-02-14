@@ -36,7 +36,11 @@
 .paper-modal {
     background-image: url('../../../assets/paper.jpeg');
     font-family: 'Indie Flower', sans-serif;
-    
+    padding: 5px 25px;
+    height: 100%;
+    font-size: 1rem;
+    position: relative;
+    overflow: auto;
 }
 
 #back-button {
